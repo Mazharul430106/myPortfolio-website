@@ -10,8 +10,6 @@ const Contact = () => {
         console.log(data);
     }
 
-
-
     return (
         <section>
             <div className='contact-title my-10'>
@@ -20,7 +18,7 @@ const Contact = () => {
             <div className="hero">
                 <div className="hero-content w-full flex-col lg:flex-row">
                     <div className="card w-full lg:w-[600px] flex-shrink-0 shadow-2xl bg-base-100">
-                        <form onSubmit={handleSubmit(contactSubmitHandler)} className="card-body">
+                        <form action onSubmit={handleSubmit(contactSubmitHandler)} className="card-body">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>

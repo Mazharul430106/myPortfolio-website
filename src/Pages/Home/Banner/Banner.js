@@ -1,6 +1,9 @@
 import React from 'react';
+import { FaGithub, FaLinkedin,FaFacebook } from "react-icons/fa";
 
 const Banner = () => {
+
+   
     return (
         <section>
             <div className="hero" style={{ marginTop: '30px', marginBottom: '30px' }}>
@@ -10,7 +13,14 @@ const Banner = () => {
                         <h1 className="text-5xl font-bold pb-5">Hi! I am,</h1>
                         <h1 className="text-5xl font-bold"> Mazharul Islam</h1>
                         <p className="py-6">Front-End-Developer</p>
-                        <input type="button" value="download resume" className='btn btn-primary text-white' />
+                        <div className='flex gap-2 pb-12'>
+                            <a target='_blank' href='https://github.com/Mazharul430106'><FaGithub className='text-2xl'></FaGithub></a>
+                            <a target='_blank' href="https://www.linkedin.com/in/mazharul-islam-7a6617244/"><FaLinkedin className='text-2xl'></FaLinkedin></a>
+                            <a target='_blank' href="https://web.facebook.com/engr.mazharulislam.50/"><FaFacebook className='text-2xl'></FaFacebook></a>
+                        </div>
+
+                            <a target='_blank' className='btn btn-primary text-white' href="https://drive.google.com/file/d/16ulkjWcMqM1pnraXnuwjtjAsbKAcgVvW/view?usp=sharing">Dwonload Resume</a>                            
+                       
                     </div>
 
                     <div className='w-full'>

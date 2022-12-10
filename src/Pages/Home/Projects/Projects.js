@@ -13,7 +13,7 @@ const Projects = () => {
         },
         {
             name: 'Educational Zone',
-            desc: 'This is an educational website and the main objective of this website is toprovide the best education The website used email password sign in and google sign in authentication system......'
+            desc: 'This is an educational website and the main objective of this website is to provide the best education.......'
         },
 
     ]
