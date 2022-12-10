@@ -15,7 +15,7 @@ const About = () => {
                         </div>
 
                         <div className='w-full flex items-center'>
-                            <p>Hi I am Mazharul Islam, i am a Front-End-Developer As a Front-End Developer I can develop any front-end website application. Speciallysingle page application for react js with mongodb database . and I can clean code optimization, which is understandable for any developer, My extensive knowledge of HTML, Css,  Bootstrap, React Bootstrap, Tailwind Css,Javascript, React js, Mongodb, with familiar problem solving skills.</p>
+                            <p>Hi I am Mazharul Islam, i am a Front-End-Developer As a Front-End Developer I can develop any front-end website application. Specially single page application for react js with mongodb database . and I can clean code optimization, which is understandable for any developer, My extensive knowledge of HTML, Css,  Bootstrap, React Bootstrap, Tailwind Css, Javascript, React js, Mongodb, with familiar problem solving skills.</p>
                         </div>
                     </div>
                 </div>

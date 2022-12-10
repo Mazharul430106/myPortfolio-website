@@ -27,7 +27,7 @@ const Contact = () => {
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Password</span>
+                                    <span className="label-text">Phone</span>
                                 </label>
                                 <input type="text" {...register('password', {required: true})} placeholder="password" className="input input-bordered" />
                                 <label className="label">
