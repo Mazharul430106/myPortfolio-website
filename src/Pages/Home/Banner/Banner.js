@@ -18,8 +18,7 @@ const Banner = () => {
                             <a target='_blank' href="https://www.linkedin.com/in/mazharul-islam-7a6617244/"><FaLinkedin className='text-2xl'></FaLinkedin></a>
                             <a target='_blank' href="https://web.facebook.com/engr.mazharulislam.50/"><FaFacebook className='text-2xl'></FaFacebook></a>
                         </div>
-
-                            <a target='_blank' className='btn btn-primary text-white' href="https://drive.google.com/file/d/16ulkjWcMqM1pnraXnuwjtjAsbKAcgVvW/view?usp=sharing">Dwonload Resume</a>                            
+                        <a target='_blank' className='btn btn-primary text-white' href="https://drive.google.com/file/d/16ulkjWcMqM1pnraXnuwjtjAsbKAcgVvW/view?usp=sharing">Dwonload Resume</a>                            
                        
                     </div>
 
